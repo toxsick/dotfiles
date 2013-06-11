@@ -7,7 +7,7 @@ alias pxstapi='cd ~/Coding/pxst-app/pxst-api/;fab'
 alias pxstdecider='cd ~/Coding/pxst-app/pxst-decider/;fab'
 alias pxstworker='cd ~/Coding/pxst-app/pxst-worker/;fab'
 alias pxstchef='cd ~/Coding/pxst-app/pxst-chef/;fab'
-alias pxstclient='python ~/Coding/pxst-app/pxst-client/UserClientp.py'
+alias pxstclient='cd ~/Coding/pxst-app/pxst-client/;fab'
 
 # WN
 alias wincor='cd ~/Projekte/wn_projects/pro_compliance_library/compliance_library/library;fab'
