@@ -8,6 +8,7 @@ alias pxstdecider='cd ~/Coding/pxst-app/pxst-decider/;fab'
 alias pxstworker='cd ~/Coding/pxst-app/pxst-worker/;fab'
 alias pxstchef='cd ~/Coding/pxst-app/pxst-chef/;fab'
 alias pxstclient='cd ~/Coding/pxst-app/pxst-client/;fab'
+alias houston='cd ~/Coding/pxst-app/pxst-houston/;fab'
 
 # WN
 alias wincor='cd ~/Projekte/wn_projects/pro_compliance_library/compliance_library/library;fab'
