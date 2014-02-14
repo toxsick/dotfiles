@@ -3,11 +3,11 @@ alias lh='ls -lah'
 alias ...='cd ../..'
 
 # sm
-alias pxstapi='cd ~/Coding/smapp/smapi'
-alias pxstdecider='cd ~/Coding/smapp/smdecider'
-alias pxstworker='cd ~/Coding/smapp/smworker'
-alias pxstchef='cd ~/Coding/smapp/smchef'
-alias pxstclient='cd ~/Coding/smapp/smclient'
+alias smapi='cd ~/Coding/smapp/smapi'
+alias smdecider='cd ~/Coding/smapp/smdecider'
+alias smworker='cd ~/Coding/smapp/smworker'
+alias smchef='cd ~/Coding/smapp/smchef'
+alias smclient='cd ~/Coding/smapp/smclient'
 alias houston='sh ~/Coding/smapp/smhouston/houston'
 
 # WN
