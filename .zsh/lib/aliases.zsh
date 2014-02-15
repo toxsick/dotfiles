@@ -2,13 +2,13 @@ alias ll='ls -la'
 alias lh='ls -lah'
 alias ...='cd ../..'
 
-# PXST
-alias pxstapi='cd ~/Coding/pxst-app/pxst-api/;fab'
-alias pxstdecider='cd ~/Coding/pxst-app/pxst-decider/;fab'
-alias pxstworker='cd ~/Coding/pxst-app/pxst-worker/;fab'
-alias pxstchef='cd ~/Coding/pxst-app/pxst-chef/;fab'
-alias pxstclient='cd ~/Coding/pxst-app/pxst-client/;fab'
-alias houston='sh ~/Coding/pxst-app/pxst-houston/houston'
+# sm
+alias smapi='cd ~/Coding/smapp/smapi'
+alias smdecider='cd ~/Coding/smapp/smdecider'
+alias smworker='cd ~/Coding/smapp/smworker'
+alias smchef='cd ~/Coding/smapp/smchef'
+alias smclient='cd ~/Coding/smapp/smclient'
+alias houston='sh ~/Coding/smapp/smhouston/houston'
 
 # WN
 alias wincor='cd ~/Projekte/wn_projects/pro_compliance_library/compliance_library/library;fab'
