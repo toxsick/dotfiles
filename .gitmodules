@@ -11,10 +11,6 @@
         path = .vim/bundle/ack.vim
         url = https://github.com/mileszs/ack.vim.git
 
-[submodule ".vim/bundle/delimitMate"]
-        path = .vim/bundle/delimitMate
-        url = https://github.com/Raimondi/delimitMate.git
-
 [submodule ".vim/bundle/nerdcommenter"]
         path = .vim/bundle/nerdcommenter
         url = https://github.com/scrooloose/nerdcommenter.git
@@ -32,3 +28,6 @@
         url = https://github.com/jimenezrick/vimerl.git
 
 
+[submodule ".zsh"]
+	path = .zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
