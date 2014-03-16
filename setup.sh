@@ -22,6 +22,11 @@ echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
 
+# initialize submodules (incuding oh-my-zsh)
+echo "updating submodules"
+git submodule init && git submodule update
+echo "...done"
+
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
 for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
