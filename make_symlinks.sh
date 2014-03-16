@@ -33,7 +33,7 @@ done
 # create symlink to zsh custom scripts
 echo "Creating symlink to zsh custom scripts directory."
 rm -rf $dir/.zsh/custom
-ln -s $dir/zsh sh_custom $dir/.zsh/custom
+ln -s $dir/zsh_custom $dir/.zsh/custom
 
 # create ~/.vimbackup directory
 echo "Creating ~/.vimbackup directory."
