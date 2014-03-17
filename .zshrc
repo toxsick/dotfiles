@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-ZSH=/Users/Dale/.zsh
+ZSH=~/.zsh
 
 # Theme
 ZSH_THEME=kennethreitz
