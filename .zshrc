@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh configuration.
 ZSH=~/.zsh
 
+# set ZSH_CUSTOM path
+ZSH_CUSTOM=~/dotfiles/zsh_custom
+
 # Theme
 ZSH_THEME=kennethreitz
 

@@ -1,4 +1,3 @@
-PATH=/usr/local/bin:$PATH
 PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Add Python to PATH for scripting
