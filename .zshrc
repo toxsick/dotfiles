@@ -10,6 +10,9 @@ ZSH_THEME=kennethreitz
 # Plugins
 plugins=(autoenv fabric git knife osx pip python redis-cli sublime virtualenvwrapper)
 
+# other required environment vars
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 

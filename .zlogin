@@ -1,8 +1,5 @@
 PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-# Add Python to PATH for scripting
-PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
-
 ### Added by the Heroku Toolbelt
 PATH=/usr/local/heroku/bin:$PATH
 
