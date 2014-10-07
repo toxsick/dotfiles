@@ -9,13 +9,12 @@ ZSH_THEME=kennethreitz
 
 # Python Stuff
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-source /usr/local/bin/activate.sh
 
 # GO Stuff
 export GOPATH=$HOME/Coding/go
 
 # Plugins
-plugins=(autoenv fabric git knife osx pip python redis-cli sublime virtualenvwrapper)
+plugins=(autoenv fabric git golang knife osx pip python redis-cli sublime virtualenvwrapper)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
