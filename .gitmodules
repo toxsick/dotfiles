@@ -27,7 +27,6 @@
     path = .vim/bundle/vimerl
     url = https://github.com/jimenezrick/vimerl.git
 
-
 [submodule ".zsh"]
     path = .zsh
     url = https://github.com/robbyrussell/oh-my-zsh.git
