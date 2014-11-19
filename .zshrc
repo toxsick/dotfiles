@@ -76,9 +76,8 @@ source ~/.rvm/scripts/'rvm'
 if [[ -d $PYENV_ROOT ]];then
     # initialize pyenv
     eval "$(pyenv init -)"
-    # initialize pyenv virtualenvwrapper
-    pyenv virtualenvwrapper
-    #source ~/.pyenv/plugins/pyenv-autoenv/bin/pyenv-autoenv
+    # initialize pyenv virtualenv
+    eval "$(pyenv virtualenv-init -)"
 fi
 
 # autoenv activate
