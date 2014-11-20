@@ -6,8 +6,9 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
-files=".vim .zsh .gvim.rc .vimrc .zlogin .zshrc"    # list of files/folders to symlink in homedir
+dir=~/dotfiles
+# list of files/folders to symlink in homedir
+files=".vim .zsh .gvim.rc .vimrc .zlogin .zshenv .zshrc"
 
 ##########
 
