@@ -6,7 +6,7 @@
 export GOPATH=$HOME/Coding/go
 
 # pyenv root
-export PYENV_ROOT="$HOME/.pyenv"
+export PYENV_ROOT=$HOME/.pyenv
 
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
