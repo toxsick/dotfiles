@@ -36,6 +36,9 @@ PATH=$HOME/.rvm/bin:$PATH
 # Add GO workspace's bin to PATH
 PATH=$PATH:$GOPATH/bin
 
+# Add QT to PATH
+PATH=$PATH:/usr/local/Cellar/qt5/5.3.2/bin
+
 # Add pyenv root to PATH
 if [[ -d $PYENV_ROOT ]];then
     PATH="$PYENV_ROOT/bin:$PATH"
