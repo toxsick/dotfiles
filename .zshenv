@@ -8,18 +8,17 @@ export GOPATH=$HOME/Coding/go
 # pyenv root
 export PYENV_ROOT=$HOME/.pyenv
 
+# deisctl settings
+if [ -f $HOME/.deis/deisctl.zsh ]; then
+    source $HOME/.deis/deisctl.zsh
+fi
+
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 
 #-------------------------------------------------
