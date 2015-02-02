@@ -15,7 +15,7 @@ ZSH_THEME=kennethreitz
 export GOPATH=$HOME/Coding/go
 
 # Plugins
-plugins=(autoenv brew fabric git golang knife osx pip python redis-cli sublime)
+plugins=(autoenv brew fabric git golang knife osx pip python redis-cli sublime tmux)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
