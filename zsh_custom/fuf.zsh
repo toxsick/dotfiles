@@ -1,1 +1,1 @@
-alias fufblog='cd ~/Coding/fuf/froehlichundfrei.github.io && jekyll serve --watch --draft'
+alias fufblog='cd ~/Coding/fuf/froehlichundfrei.github.io && gulp'
