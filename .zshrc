@@ -25,7 +25,9 @@ source $ZSH/oh-my-zsh.sh
 #-------------------------------------------------
 
 # rvm activate
-source ~/.rvm/scripts/'rvm'
+if [[ -f ~/.rvm/scripts/rvm ]];then
+    source ~/.rvm/scripts/rvm
+fi
 
 # pyenv activate
 if [[ -d $PYENV_ROOT ]];then
