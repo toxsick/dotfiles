@@ -1,5 +1,20 @@
 alias fufblog='cd ~/Coding/fuf/froehlichundfrei.github.io && gulp'
 
+
+alias datadock='
+running=`docker ps | grep -c datadock`
+existing=`docker ps -a | grep -c datadock`
+if [[ $running -eq 1 ]]; then
+    echo "datadock container already running..";
+elif [[ $existing -eq 1 ]]; then
+    echo "starting existing datadock container..";
+    docker start datadock;
+else
+    echo "starting new datadock container..";
+    docker run -d -it --name datadock -h datadock -p 138:138/udp -p 139:139 -p 445:445 -p 445:445/udp fundf/datadock;
+fi
+'
+
 alias machineroom='
 running=`docker ps | grep -c machineroom`
 existing=`docker ps -a | grep -c machineroom`
