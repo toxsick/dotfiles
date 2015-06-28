@@ -41,3 +41,6 @@ fi
 if [[ -f /usr/local/opt/autoenv/activate.sh ]];then
     source /usr/local/opt/autoenv/activate.sh
 fi
+
+# initialize boot2docker
+eval "$(boot2docker shellinit 2>/dev/null | sed  's,\\,\\\\,g')"
