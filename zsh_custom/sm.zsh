@@ -1,6 +1,0 @@
-alias smapi='cd ~/Coding/smapp/smapi'
-alias smdecider='cd ~/Coding/smapp/smdecider'
-alias smworker='cd ~/Coding/smapp/smworker'
-alias smchef='cd ~/Coding/smapp/smchef'
-alias smclient='cd ~/Coding/smapp/smclient'
-alias houston='sh ~/Coding/smapp/smhouston/houston'
