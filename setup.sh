@@ -8,7 +8,7 @@
 
 dir=~/dotfiles
 # list of files/folders to symlink in homedir
-files=".zsh .zlogin .zshenv .zshrc .tmux.conf .vim .gvim.rc .vimrc"
+files=".zsh .zlogin .zshenv .zshrc .tmux.conf .vim .gvim.rc .vimrc .slate.js"
 
 ##########
 
