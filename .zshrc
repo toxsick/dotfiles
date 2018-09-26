@@ -12,7 +12,7 @@ ZSH_CUSTOM=~/dotfiles/zsh_custom
 ZSH_THEME=kennethreitz
 
 # Plugins
-plugins=(brew docker git osx pip python sublime tmux)
+plugins=(brew docker git nvm osx pip python yarn)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -28,13 +28,11 @@ fi
 
 # pyenv activate
 if [[ -d $PYENV_ROOT ]];then
-    # initialize pyenv
-    eval "$(pyenv init -)"
-    # initialize pyenv virtualenv
-    eval "$(pyenv virtualenv-init -)"
+   # initialize pyenv
+   eval "$(pyenv init -)"
+   # initialize pyenv virtualenv
+   eval "$(pyenv virtualenv-init -)"
 fi
 
-# initialize docker toolbox env
-if which  docker-machine >/dev/null 2>&1; then
-    eval "$(docker-machine env default)"
-fi
+export NVM_DIR="/Users/hannes/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
